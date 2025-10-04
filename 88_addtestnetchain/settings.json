@@ -1,0 +1,43 @@
+{
+  "type": "isHereUnichain",
+  "fields": [
+    {
+      "name": "saveTo",
+      "label": "Сохранить в",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "targetxpath",
+      "label": "xpath чтобы проверить статус наличия тестовой сети в кошельке:",
+      "type": "text",
+      "loadTo": true
+    },
+    {
+      "name": "chainID",
+      "label": "ID тестовой сети для добавления в кошелек:",
+      "type": "text",
+      "loadTo": true
+    },
+    {
+      "name": "delay",
+      "label": "Ожидать от",
+      "type": "number",
+      "default": "0",
+      "groupId": "delay"
+    },
+    {
+      "name": "delay2",
+      "label": "Ожидать до",
+      "type": "number",
+      "default": "1000",
+      "groupId": "delay"
+    },
+    {
+      "name": "description",
+      "label": "Описание",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

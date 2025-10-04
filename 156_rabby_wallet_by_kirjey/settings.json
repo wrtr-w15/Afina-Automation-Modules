@@ -1,0 +1,91 @@
+{
+  "type": "Interaction Module",
+  "fields": [
+    {
+      "name": "action",
+      "label": "Выборка",
+      "type": "select",
+      "options": [
+        {
+          "label": "Connect",
+          "value": "connect"
+        },
+        {
+          "label": "Add",
+          "value": "add"
+        },
+        {
+          "label": "Sign",
+          "value": "sign"
+        },
+        {
+          "label": "Use Rabby + Connect",
+          "value": "rbconnect"
+        }
+      ]
+    },
+    {
+      "name": "tabTimeout",
+      "label": "Время ожидания вкладки (мс)",
+      "type": "number",
+      "loadTo": true,
+      "default": 15000
+    },
+    {
+      "name": "elementTimeout",
+      "label": "Время ожидания элемента на странице (мс)",
+      "type": "number",
+      "loadTo": true,
+      "default": 10000
+    },
+    {
+      "name": "repeatCount",
+      "label": "Количество повторений (только для Sign)",
+      "type": "number",
+      "loadTo": true,
+      "default": 1,
+      "isVisible": "action === 'sign'"
+    },
+    {
+      "name": "useCustomGas",
+      "label": "Custom Gas",
+      "type": "checkbox",
+      "default": false,
+      "isVisible": "action === 'sign'"
+    },
+    {
+      "name": "gasSpeed",
+      "label": "Уровень газа",
+      "type": "select",
+      "options": [
+        {
+          "label": "Normal",
+          "value": "Normal"
+        },
+        {
+          "label": "Fast",
+          "value": "Fast"
+        },
+        {
+          "label": "Instant",
+          "value": "Instant"
+        },
+        {
+          "label": "Custom",
+          "value": "Custom"
+        }
+      ],
+      "default": "Normal",
+      "isVisible": "action === 'sign' && useCustomGas === true"
+    },
+    {
+      "name": "customGasValue",
+      "label": "Custom Gas Value (Gwei)",
+      "type": "number",
+      "loadTo": true,
+      "default": "",
+      "isVisible": "action === 'sign' && useCustomGas === true && gasSpeed === 'Custom'"
+    }
+  ],
+  "variables": {}
+}

@@ -1,0 +1,29 @@
+{
+  "type": "Random Arrow Key Press",
+  "fields": [
+    {
+      "name": "totalPresses",
+      "label": "Total Presses",
+      "type": "number",
+      "default": 10
+    },
+    {
+      "name": "minDelay",
+      "label": "Minimum Delay (ms)",
+      "type": "number",
+      "default": 500
+    },
+    {
+      "name": "maxDelay",
+      "label": "Maximum Delay (ms)",
+      "type": "number",
+      "default": 1500
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": "Randomly presses arrow keys on the keyboard"
+    }
+  ]
+}

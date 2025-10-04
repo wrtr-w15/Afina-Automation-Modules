@@ -1,0 +1,78 @@
+{
+  "type": "SimpleRandomSelectorWithSave",
+  "fields": [
+    {
+      "name": "Spot",
+      "label": "Spot",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "Derivatives",
+      "label": "Derivatives",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "TradingBot",
+      "label": "TradingBot",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "LiderBoard",
+      "label": "LiderBoard",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "PositionBuilder",
+      "label": "PositionBuilder",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "Earn",
+      "label": "Earn",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "Lifestream",
+      "label": "Lifestream",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "Settings",
+      "label": "Settings",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "AssetsTrading",
+      "label": "AssetsTrading",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "RandomMakeItHot",
+      "label": "Количество задач",
+      "type": "number",
+      "default": 1
+    },
+    {
+      "name": "saveTo",
+      "label": "Переменная для сохранения результата",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "description",
+      "label": "Описание",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

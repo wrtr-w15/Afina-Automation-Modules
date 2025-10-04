@@ -1,0 +1,66 @@
+{
+  "type": "Scroll To Element",
+  "fields": [
+    {
+      "name": "xpathone",
+      "label": "XPath",
+      "type": "text",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "minSpeed",
+      "label": "Min Speed (ms)",
+      "type": "number",
+      "default": "10"
+    },
+    {
+      "name": "maxSpeed",
+      "label": "Max Speed (ms)",
+      "type": "number",
+      "default": "30"
+    },
+    {
+      "name": "jitterChance",
+      "label": "Jitter Chance (0–1)",
+      "type": "number",
+      "default": "0.2"
+    },
+    {
+      "name": "overshootMin",
+      "label": "Overshoot Min",
+      "type": "number",
+      "default": "30"
+    },
+    {
+      "name": "overshootMax",
+      "label": "Overshoot Max",
+      "type": "number",
+      "default": "70"
+    },
+    {
+      "name": "centerOffset",
+      "label": "Center Offset",
+      "type": "number",
+      "default": "0"
+    },
+    {
+      "name": "stepDivisor",
+      "label": "Step Divisor",
+      "type": "number",
+      "default": "20"
+    },
+    {
+      "name": "minSteps",
+      "label": "Minimum Steps",
+      "type": "number",
+      "default": "10"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}
