@@ -1,0 +1,29 @@
+{
+  "type": "Random Click on Element",
+  "fields": [
+    {
+      "name": "selectorType",
+      "label": "Selector Type",
+      "type": "select",
+      "options": [
+        {
+          "label": "XPath",
+          "value": "xpath"
+        }
+      ],
+      "default": "xpath"
+    },
+    {
+      "name": "xpath",
+      "label": "XPath",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": "Кликает в случайную точку внутри элемента"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "Extension Key Input + Checkbox Logic",
+  "fields": [
+    {
+      "name": "key",
+      "label": "API Key",
+      "type": "text",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "reCaptcha",
+      "label": "Enable reCaptcha",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "hCaptcha",
+      "label": "Enable hCaptcha",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "textVerification",
+      "label": "Enable Text verification code",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "cloudflare",
+      "label": "Enable Cloudflare",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "funcaptcha",
+      "label": "Enable Funcaptcha",
+      "type": "checkbox",
+      "default": false
+    }
+  ]
+}

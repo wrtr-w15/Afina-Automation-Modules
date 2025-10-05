@@ -1,0 +1,30 @@
+{
+  "type": "Input Text",
+  "fields": [
+    {
+      "name": "text",
+      "label": "Text to Input",
+      "type": "textarea",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "interval",
+      "label": "Typing Interval (ms)",
+      "type": "number",
+      "default": 100
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

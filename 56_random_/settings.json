@@ -1,0 +1,25 @@
+{
+  "type": "RandomValueSelector",
+  "fields": [
+    {
+      "name": "values",
+      "label": "Values (one per line)",
+      "type": "textarea",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": ""
+    }
+  ],
+  "variables": {}
+}

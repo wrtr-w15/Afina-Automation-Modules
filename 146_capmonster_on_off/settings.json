@@ -1,0 +1,26 @@
+{
+  "type": "Toggle Extension Switch",
+  "fields": [
+    {
+      "name": "mode",
+      "label": "Toggle Mode",
+      "type": "select",
+      "options": [
+        {
+          "label": "On",
+          "value": "on"
+        },
+        {
+          "label": "Off",
+          "value": "off"
+        }
+      ]
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": "toggleResult"
+    }
+  ]
+}

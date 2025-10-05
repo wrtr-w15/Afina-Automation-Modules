@@ -1,0 +1,33 @@
+{
+  "type": "Scroll Random Time",
+  "fields": [
+    {
+      "name": "minScrollTime",
+      "label": "Минимальное время скролла (мс)",
+      "type": "number",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "maxScrollTime",
+      "label": "Максимальное время скролла (мс)",
+      "type": "number",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "minStepDelay",
+      "label": "Минимальная задержка между шагами (мс)",
+      "type": "number",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "maxStepDelay",
+      "label": "Максимальная задержка между шагами (мс)",
+      "type": "number",
+      "loadTo": true,
+      "default": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "Toggle Extension Switch",
+  "fields": [
+    {
+      "name": "toggleAction",
+      "label": "Toggle Action",
+      "type": "select",
+      "options": [
+        {
+          "label": "On",
+          "value": "On"
+        },
+        {
+          "label": "Off",
+          "value": "Off"
+        }
+      ]
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": "Toggle On/Off in Extension Popup"
+    }
+  ]
+}

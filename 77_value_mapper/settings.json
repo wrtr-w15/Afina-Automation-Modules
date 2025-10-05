@@ -1,0 +1,38 @@
+{
+  "type": "Value Mapping",
+  "fields": [
+    {
+      "name": "mapping",
+      "label": "Mapping (value:return)",
+      "type": "textarea",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "inputValue",
+      "label": "Input Value",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "defaultValue",
+      "label": "Default Value (if no match)",
+      "type": "text",
+      "default": "Not Found"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": "Map input value to output based on defined key-value pairs"
+    }
+  ],
+  "variables": {}
+}

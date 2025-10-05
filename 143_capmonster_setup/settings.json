@@ -1,0 +1,135 @@
+{
+  "type": "Captcha Extension Setup",
+  "fields": [
+    {
+      "name": "apiKey",
+      "label": "API Key",
+      "type": "text",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "saveTo",
+      "label": "Save Balance To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "repeatAttempt",
+      "label": "Repeat Attempt",
+      "type": "select",
+      "options": [
+        {
+          "label": "0",
+          "value": "0"
+        },
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5",
+          "value": "5"
+        },
+        {
+          "label": "6",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        },
+        {
+          "label": "9",
+          "value": "9"
+        }
+      ]
+    },
+    {
+      "name": "manualRecognition",
+      "label": "Manual Recognition",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "recaptcha2",
+      "label": "ReCaptcha2",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "recaptcha2Mode",
+      "label": "ReCaptcha2 Mode",
+      "type": "select",
+      "options": [
+        {
+          "label": "Click",
+          "value": "click"
+        },
+        {
+          "label": "Token",
+          "value": "token"
+        }
+      ],
+      "isVisible": "recaptcha2 === true"
+    },
+    {
+      "name": "recaptcha3",
+      "label": "ReCaptcha3",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "rcEnterprise",
+      "label": "RC Enterprise",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "geetest",
+      "label": "GeeTest",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "cloudflare",
+      "label": "Cloudflare",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "textCaptcha",
+      "label": "Text captcha",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "blsCaptcha",
+      "label": "BLS Captcha",
+      "type": "checkbox",
+      "default": false
+    },
+    {
+      "name": "binanceCaptcha",
+      "label": "Binance Captcha",
+      "type": "checkbox",
+      "default": false
+    }
+  ]
+}

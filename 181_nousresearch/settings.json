@@ -1,0 +1,73 @@
+{
+  "type": "Nousresearch",
+  "fields": [
+    {
+      "name": "model",
+      "label": "Model",
+      "type": "select",
+      "options": [
+        {
+          "label": "Hermes-3-Llama-3.1-70B",
+          "value": "Hermes-3-Llama-3.1-70B"
+        },
+        {
+          "label": "Hermes-3-Llama-3.1-405B",
+          "value": "Hermes-3-Llama-3.1-405B"
+        },
+        {
+          "label": "DeepHermes-3-Llama-3-8B-Preview",
+          "value": "DeepHermes-3-Llama-3-8B-Preview"
+        },
+        {
+          "label": "DeepHermes-3-Mistral-24B-Preview",
+          "value": "DeepHermes-3-Mistral-24B-Preview"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "label": "API",
+      "type": "text",
+      "loadTo": "true"
+    },
+    {
+      "name": "maxTokens",
+      "label": "maxTokens",
+      "type": "number",
+      "default": "256"
+    },
+    {
+      "name": "request",
+      "label": "Request",
+      "type": "textarea",
+      "loadTo": "true"
+    },
+    {
+      "name": "saveTo",
+      "label": "Save to",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "delay",
+      "label": "Wait from",
+      "type": "number",
+      "default": "0",
+      "groupId": "delay"
+    },
+    {
+      "name": "delay2",
+      "label": "Wait to",
+      "type": "number",
+      "default": "1000",
+      "groupId": "delay"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": ""
+    }
+  ],
+  "variables": {}
+}
