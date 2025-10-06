@@ -1,0 +1,62 @@
+{
+  "type": "Input Value By XPath or Active Element",
+  "fields": [
+    {
+      "name": "iframeXPath",
+      "label": "Iframe XPath",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "mode",
+      "label": "Insertion Mode",
+      "type": "select",
+      "options": [
+        {
+          "label": "By XPath",
+          "value": "xpath"
+        },
+        {
+          "label": "Active Element",
+          "value": "active"
+        }
+      ],
+      "default": "xpath",
+      "loadTo": true,
+      "isRequired": true
+    },
+    {
+      "name": "xpath",
+      "label": "XPath Selector",
+      "type": "text",
+      "loadTo": true,
+      "isVisible": "mode === 'xpath'",
+      "isRequired": true,
+      "default": ""
+    },
+    {
+      "name": "waitTime",
+      "label": "Wait Time (ms)",
+      "type": "text",
+      "loadTo": true,
+      "isVisible": "mode === 'xpath'",
+      "default": "5000",
+      "isRequired": false
+    },
+    {
+      "name": "value",
+      "label": "Insert Value",
+      "type": "text",
+      "loadTo": true,
+      "isRequired": true,
+      "default": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": "Inserts a value into an element by XPath or into the currently active element."
+    }
+  ],
+  "variables": {}
+}

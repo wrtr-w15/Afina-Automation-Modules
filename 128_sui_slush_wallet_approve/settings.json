@@ -1,0 +1,11 @@
+{
+  "type": "Sui Wallet Connect",
+  "fields": [
+    {
+      "name": "description",
+      "label": "Описание",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

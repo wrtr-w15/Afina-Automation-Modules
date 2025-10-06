@@ -1,0 +1,57 @@
+{
+  "type": "Snake Line Sweep",
+  "fields": [
+    {
+      "name": "xpath",
+      "label": "Canvas XPath",
+      "type": "text",
+      "default": "//canvas[@width=\"512\" and @height=\"512\"]"
+    },
+    {
+      "name": "clickToFocus",
+      "label": "Click Canvas To Focus",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "lineTimeMinMs",
+      "label": "Line Time Min (ms)",
+      "type": "number",
+      "default": 800
+    },
+    {
+      "name": "lineTimeMaxMs",
+      "label": "Line Time Max (ms)",
+      "type": "number",
+      "default": 1200
+    },
+    {
+      "name": "shiftTimeMinMs",
+      "label": "Shift Time Min (ms)",
+      "type": "number",
+      "default": 120
+    },
+    {
+      "name": "shiftTimeMaxMs",
+      "label": "Shift Time Max (ms)",
+      "type": "number",
+      "default": 220
+    },
+    {
+      "name": "maxDurationMs",
+      "label": "Max Duration (ms)",
+      "type": "number",
+      "default": 60000
+    },
+    {
+      "name": "saveTo",
+      "label": "Save Result To",
+      "type": "text",
+      "default": "snakeResult"
+    }
+  ],
+  "allowFunctions": [
+    "page.evaluate",
+    "page.$"
+  ]
+}

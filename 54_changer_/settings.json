@@ -1,0 +1,39 @@
+{
+  "type": "StringManipulation",
+  "fields": [
+    {
+      "name": "inputString",
+      "label": "Input String",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "searchValue",
+      "label": "Search Value",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "replaceValue",
+      "label": "Replace Value",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": ""
+    }
+  ],
+  "variables": {}
+}

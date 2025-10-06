@@ -1,0 +1,17 @@
+{
+  "type": "Wait and Return to Tab",
+  "fields": [
+    {
+      "name": "switchTimeout",
+      "label": "Время ожидания вкладки (мс)",
+      "type": "number",
+      "default": 10000
+    },
+    {
+      "name": "approveTimeout",
+      "label": "Время ожидания кнопки Approve (мс)",
+      "type": "number",
+      "default": 15000
+    }
+  ]
+}

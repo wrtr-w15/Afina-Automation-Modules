@@ -1,0 +1,25 @@
+{
+  "type": "Get Wallet Transaction Count",
+  "fields": [
+    {
+      "name": "rpcUrl",
+      "label": "RPC URL",
+      "type": "text",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "walletAddress",
+      "label": "Wallet Address",
+      "type": "text",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "Add EVM Chain (Symbol Only)",
+  "allowFunctions": [
+    "page.evaluate"
+  ],
+  "fields": [
+    {
+      "name": "chainId",
+      "label": "Chain ID",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "chainName",
+      "label": "Chain Name",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "rpcUrl",
+      "label": "RPC URL",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "blockExplorerUrl",
+      "label": "Block Explorer URL",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "nativeCurrencySymbol",
+      "label": "Native Currency Symbol",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

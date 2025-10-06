@@ -1,0 +1,40 @@
+{
+  "type": "DiscordTokenLogin",
+  "fields": [
+    {
+      "name": "token",
+      "label": "Discord Token",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "saveTo",
+      "label": "Save Result To",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "delay",
+      "label": "Wait From",
+      "type": "number",
+      "default": "0",
+      "groupId": "delay"
+    },
+    {
+      "name": "delay2",
+      "label": "Wait To",
+      "type": "number",
+      "default": "1000",
+      "groupId": "delay"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": ""
+    }
+  ],
+  "variables": {}
+}

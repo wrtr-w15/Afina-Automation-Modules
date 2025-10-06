@@ -1,0 +1,46 @@
+{
+  "type": "LocalStorage Signature Splitter",
+  "fields": [
+    {
+      "name": "outerKey",
+      "label": "Outer Key (опционально)",
+      "type": "text",
+      "default": "",
+      "description": "Если пусто — берём первый ключ из объекта (например, 81832). Можно подставлять ${vars}."
+    },
+    {
+      "name": "saveToPk",
+      "label": "Save PK To",
+      "type": "text",
+      "default": "signature_${outerKey}_pk",
+      "description": "Имя переменной для pk. Поддерживает плейсхолдеры, напр. ${outerKey}."
+    },
+    {
+      "name": "saveToSeed",
+      "label": "Save SEED To",
+      "type": "text",
+      "default": "signature_${outerKey}_seed",
+      "description": "Имя переменной для seed. Поддерживает плейсхолдеры."
+    },
+    {
+      "name": "saveToOuterKey",
+      "label": "Save OuterKey To",
+      "type": "text",
+      "default": "signature_outerKey",
+      "description": "Куда сохранить сам внешний ключ (например, 81832)."
+    },
+    {
+      "name": "saveToRaw",
+      "label": "Save Raw JSON To",
+      "type": "text",
+      "default": "signatureRaw",
+      "description": "Куда сохранить исходный JSON строкой (на всякий случай)."
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": "Читает localStorage['signature'], парсит и сохраняет pk/seed по отдельности"
+    }
+  ]
+}

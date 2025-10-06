@@ -1,0 +1,58 @@
+{
+  "type": "Fleek AI Agent Request",
+  "fields": [
+    {
+      "name": "agentId",
+      "label": "Agent ID",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "apiKey",
+      "label": "API Key",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "endpoint",
+      "label": "Endpoint Path",
+      "type": "text",
+      "default": "message"
+    },
+    {
+      "name": "method",
+      "label": "HTTP Method",
+      "type": "select",
+      "options": [
+        {
+          "label": "GET",
+          "value": "GET"
+        },
+        {
+          "label": "POST",
+          "value": "POST"
+        },
+        {
+          "label": "PUT",
+          "value": "PUT"
+        },
+        {
+          "label": "DELETE",
+          "value": "DELETE"
+        }
+      ]
+    },
+    {
+      "name": "body",
+      "label": "Request Body (JSON)",
+      "type": "textarea",
+      "default": "{\"text\": \"Hello, AI!\"}"
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To Variable",
+      "type": "text",
+      "default": "fleekResponse"
+    }
+  ]
+}

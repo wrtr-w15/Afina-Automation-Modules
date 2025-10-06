@@ -1,0 +1,20 @@
+{
+  "type": "String To Number Converter",
+  "fields": [
+    {
+      "name": "inputString",
+      "label": "Input String",
+      "type": "text",
+      "default": "",
+      "description": "Enter the string to convert to a number (e.g., '123.45')",
+      "loadTo": true
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": "",
+      "description": "Variable name where the converted number will be stored"
+    }
+  ]
+}

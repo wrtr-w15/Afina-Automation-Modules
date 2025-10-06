@@ -1,0 +1,13 @@
+{
+  "name": "afina-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "puppeteer-core": "latest",
+    "googleapis": "^144.0.0",
+    "google-auth-library": "^9.15.1"
+  }
+}

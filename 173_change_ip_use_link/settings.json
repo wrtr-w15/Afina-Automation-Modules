@@ -1,0 +1,17 @@
+{
+  "type": "Open and Return Tab",
+  "fields": [
+    {
+      "name": "url",
+      "label": "URL для перехода",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "description",
+      "label": "Описание",
+      "type": "text",
+      "default": "Открывает ссылку в новой вкладке, ждёт 3 секунды, возвращается и закрывает"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "ETH Gas API Fetcher",
+  "fields": [
+    {
+      "name": "threshold",
+      "label": "Gas Threshold (Gwei)",
+      "type": "text",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "apiKey",
+      "label": "Etherscan API Key",
+      "type": "text",
+      "loadTo": true,
+      "default": ""
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

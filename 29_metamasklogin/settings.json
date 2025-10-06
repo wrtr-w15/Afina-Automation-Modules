@@ -1,0 +1,45 @@
+{
+  "type": "MetaMaskLogin",
+  "fields": [
+    {
+      "name": "ExtentionID",
+      "label": "Extension ID",
+      "type": "text",
+      "default": "nkbihfbeogaeaoehlefnkodbefgpgknn",
+      "loadTo": true
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "delay",
+      "label": "Wait From",
+      "type": "number",
+      "default": 2000,
+      "groupId": "delay"
+    },
+    {
+      "name": "delay2",
+      "label": "Wait To",
+      "type": "number",
+      "default": 4000,
+      "groupId": "delay"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": "Unlock Rabby Wallet Extension"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "DiscordTokenFetch",
+  "fields": [
+    {
+      "name": "saveTo",
+      "label": "Save Token To",
+      "type": "text",
+      "default": "",
+      "loadTo": false
+    },
+    {
+      "name": "delay",
+      "label": "Wait From",
+      "type": "number",
+      "default": "0",
+      "groupId": "delay"
+    },
+    {
+      "name": "delay2",
+      "label": "Wait To",
+      "type": "number",
+      "default": "1000",
+      "groupId": "delay"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

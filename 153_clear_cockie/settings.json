@@ -1,0 +1,32 @@
+{
+  "type": "DeleteCookies",
+  "fields": [
+    {
+      "name": "saveTo",
+      "label": "Сохранить результат",
+      "type": "text",
+      "default": "",
+      "description": "Сохранить результат операции в переменную"
+    },
+    {
+      "name": "delay",
+      "label": "Ожидание от",
+      "type": "number",
+      "default": 0,
+      "groupId": "delay"
+    },
+    {
+      "name": "delay2",
+      "label": "Ожидание до",
+      "type": "number",
+      "default": 1000,
+      "groupId": "delay"
+    },
+    {
+      "name": "description",
+      "label": "Описание",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "WalletButtonSequenceWithRetry",
+  "fields": [
+    {
+      "name": "retryCount",
+      "label": "Retry Count",
+      "type": "number",
+      "default": 5,
+      "description": "Number of times to retry page search before failing"
+    },
+    {
+      "name": "retryDelay",
+      "label": "Retry Delay (ms)",
+      "type": "number",
+      "default": 3000,
+      "description": "Delay in milliseconds between retries"
+    },
+    {
+      "name": "buttonWaitDelay",
+      "label": "Button Wait Delay (ms)",
+      "type": "number",
+      "default": 5000,
+      "description": "Delay in milliseconds to wait for the next button in sequence"
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "delay",
+      "label": "Wait From",
+      "type": "number",
+      "default": 2000,
+      "groupId": "delay"
+    },
+    {
+      "name": "delay2",
+      "label": "Wait To",
+      "type": "number",
+      "default": 4000,
+      "groupId": "delay"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": "Handle sequence of buttons on Wallet Extension with Retry Logic"
+    }
+  ]
+}

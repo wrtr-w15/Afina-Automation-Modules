@@ -1,0 +1,17 @@
+{
+  "type": "Osmosis Wallet Extractor",
+  "fields": [
+    {
+      "name": "saveTo",
+      "label": "Сохранить в переменную",
+      "type": "text",
+      "default": "walletAddress"
+    },
+    {
+      "name": "listenDuration",
+      "label": "Время прослушивания (мс)",
+      "type": "number",
+      "default": "5000"
+    }
+  ]
+}

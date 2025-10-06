@@ -1,0 +1,38 @@
+{
+  "type": "Rabby Ignore All + Connect",
+  "fields": [
+    {
+      "name": "url",
+      "label": "Target URL",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "delay",
+      "label": "Wait From (ms)",
+      "type": "number",
+      "default": "0",
+      "groupId": "delay"
+    },
+    {
+      "name": "delay2",
+      "label": "Wait To (ms)",
+      "type": "number",
+      "default": "1000",
+      "groupId": "delay"
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": ""
+    }
+  ],
+  "variables": {}
+}

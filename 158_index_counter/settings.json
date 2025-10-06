@@ -1,0 +1,18 @@
+{
+  "type": "Index Counter",
+  "fields": [
+    {
+      "name": "xpath",
+      "label": "Xpath",
+      "loadTo": true,
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "saveTo",
+      "label": "Save to",
+      "type": "text",
+      "default": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "twitter",
+  "fields": [
+    {
+      "name": "token",
+      "label": "Twitter Token",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "saveTo",
+      "label": "Сохранить в",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "delay",
+      "label": "Ожидать от",
+      "type": "number",
+      "default": "0",
+      "groupId": "delay"
+    },
+    {
+      "name": "delay2",
+      "label": "Ожидать до",
+      "type": "number",
+      "default": "1000",
+      "groupId": "delay"
+    },
+    {
+      "name": "description",
+      "label": "Описание",
+      "type": "text",
+      "default": ""
+    }
+  ],
+  "variables": {}
+}

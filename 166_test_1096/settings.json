@@ -1,0 +1,11 @@
+{
+  "type": "Wait Module (setTimeout)",
+  "fields": [
+    {
+      "name": "delay",
+      "label": "Wait Duration (ms)",
+      "type": "number",
+      "default": "1000"
+    }
+  ]
+}

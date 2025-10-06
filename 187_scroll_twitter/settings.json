@@ -1,0 +1,66 @@
+{
+  "type": "Twitter Scroll with XPath Index",
+  "fields": [
+    {
+      "name": "startIndex",
+      "label": "С какого индекса начать (0 = первый твит)",
+      "type": "text",
+      "loadTo": true,
+      "default": "0"
+    },
+    {
+      "name": "minPosts",
+      "label": "Минимум постов для просмотра",
+      "type": "number",
+      "default": 10
+    },
+    {
+      "name": "maxPosts",
+      "label": "Максимум постов для просмотра",
+      "type": "number",
+      "default": 30
+    },
+    {
+      "name": "minDelay",
+      "label": "Минимальная задержка между постами (мс)",
+      "type": "number",
+      "default": 800
+    },
+    {
+      "name": "maxDelay",
+      "label": "Максимальная задержка между постами (мс)",
+      "type": "number",
+      "default": 1800
+    },
+    {
+      "name": "stayMin",
+      "label": "Минимальное время остановки на посте (мс)",
+      "type": "number",
+      "default": 1000
+    },
+    {
+      "name": "stayMax",
+      "label": "Максимальное время остановки на посте (мс)",
+      "type": "number",
+      "default": 3000
+    },
+    {
+      "name": "interestChance",
+      "label": "Шанс заинтересованности (0.0 - 1.0)",
+      "type": "number",
+      "default": 0.4
+    },
+    {
+      "name": "saveTo",
+      "label": "Сохранить последний индекс в переменную",
+      "type": "text",
+      "default": "lastTweetIndex"
+    },
+    {
+      "name": "description",
+      "label": "Описание",
+      "type": "text",
+      "default": "Twitter: прокрутка по XPath, с начала, остановками, мышью и сохранением индекса"
+    }
+  ]
+}

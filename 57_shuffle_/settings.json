@@ -1,0 +1,66 @@
+{
+  "type": "AdvancedValueSelector",
+  "fields": [
+    {
+      "name": "values",
+      "label": "Values (one per line, format: 0|1|2:Name)",
+      "type": "textarea",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "selectionType",
+      "label": "Selection Type",
+      "type": "select",
+      "options": [
+        {
+          "label": "Fixed",
+          "value": "fixed"
+        },
+        {
+          "label": "Random",
+          "value": "random"
+        },
+        {
+          "label": "Random Range",
+          "value": "randomRange"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "name": "randomCount",
+      "label": "Random Count",
+      "type": "number",
+      "default": "",
+      "isVisible": "selectionType === 'random'"
+    },
+    {
+      "name": "randomRangeMin",
+      "label": "Random Range Min",
+      "type": "number",
+      "default": "",
+      "isVisible": "selectionType === 'randomRange'"
+    },
+    {
+      "name": "randomRangeMax",
+      "label": "Random Range Max",
+      "type": "number",
+      "default": "",
+      "isVisible": "selectionType === 'randomRange'"
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": "Вы получите значение в формате Название;Название..."
+    }
+  ],
+  "variables": {}
+}

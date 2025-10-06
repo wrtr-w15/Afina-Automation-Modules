@@ -1,0 +1,75 @@
+{
+  "type": "PercentageCalculation",
+  "fields": [
+    {
+      "name": "inputNumber",
+      "label": "Input Number",
+      "type": "text",
+      "default": "",
+      "loadTo": true
+    },
+    {
+      "name": "percentageType",
+      "label": "Percentage Type",
+      "type": "select",
+      "options": [
+        {
+          "label": "Select Percentage Type",
+          "value": ""
+        },
+        {
+          "label": "Fixed Percentage",
+          "value": "fixed"
+        },
+        {
+          "label": "Random Percentage",
+          "value": "random"
+        }
+      ],
+      "default": ""
+    },
+    {
+      "name": "fixedPercentage",
+      "label": "Fixed Percentage (or variable)",
+      "type": "text",
+      "default": "",
+      "loadTo": true,
+      "isVisible": "percentageType === 'fixed'"
+    },
+    {
+      "name": "randomPercentageFrom",
+      "label": "Random Percentage From (or variable)",
+      "type": "text",
+      "default": "",
+      "loadTo": true,
+      "isVisible": "percentageType === 'random'"
+    },
+    {
+      "name": "randomPercentageTo",
+      "label": "Random Percentage To (or variable)",
+      "type": "text",
+      "default": "",
+      "loadTo": true,
+      "isVisible": "percentageType === 'random'"
+    },
+    {
+      "name": "maxDecimals",
+      "label": "Max Decimal Places",
+      "type": "number",
+      "default": 2
+    },
+    {
+      "name": "saveTo",
+      "label": "Save To",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "name": "description",
+      "label": "Description",
+      "type": "text",
+      "default": ""
+    }
+  ],
+  "variables": {}
+}
